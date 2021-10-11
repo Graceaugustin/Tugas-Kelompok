@@ -7,13 +7,27 @@
   <title>Diamond</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<h1>Login</h1>
 <body align=center>
+  <form>
+<fieldset>
+<legend>Login </legend>
 
-  <label>Username</label><br>
-  <input type="text" name="z" required><br><br>
-  <label>Password</label><br>
+  <div>
+  <label><small>Username</small></label><br>
+  </div>
+  <div>
+  <input type="text" name="z" required>
+  </div>
+  <br>
+  <div>
+  <label><small>Password</small></label>
+  </div>
+  <div>
   <input type="password" placeholder="" name="pass" pattern="[a-z 0-9]{9}" required >
-     <div><button>Login</button></div>
+  </div>
+  <br>
+  <div><button>Login</button></div>
+</form>
 </body>
+</fieldset>
 </html>
