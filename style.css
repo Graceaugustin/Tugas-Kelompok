@@ -6,7 +6,7 @@
 
 body{
     margin: 0px
-    padding:0px;
+    padding;
     font-family:'Open Sans',sans-serif;
 
 }
@@ -36,7 +36,7 @@ nav{
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background:#FFFFFFF;
+    background:#FFFFFF;
     z-index: 1;
     border-bottom:1px solid #1C0C5B;
 }
